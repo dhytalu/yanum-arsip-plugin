@@ -8,7 +8,7 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              https://github.com/velocitydeveloper/
+ * @link              https://github.com/dhytalu/yanum-arsip-plugin.git
  * @since             1.0.0
  * @package           arsip_yanum
  *
