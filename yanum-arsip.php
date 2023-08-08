@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Plugin Arsip Nomor Agenda oleh Nur Dita Damayanti
  *
@@ -21,7 +22,7 @@
  * Text Domain:       velocity-dpasdik
  * Domain Path:       /languages
  */
- 
+
 // If this file is called directly, abort.
 if (!defined('WPINC')) {
     die;
@@ -53,9 +54,9 @@ foreach ($includes as $include) {
 function arsipyanum_register_scripts()
 {
     wp_enqueue_style('dataTable-button-styles', 'https://cdn.datatables.net/buttons/2.3.6/css/buttons.bootstrap5.min.css', array(), ARSIP_YANUM_VERSION, false);
-	wp_enqueue_style('dataTable-bootstrap5-styles', 'https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css', array(), ARSIP_YANUM_VERSION, false);
+    wp_enqueue_style('dataTable-bootstrap5-styles', 'https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css', array(), ARSIP_YANUM_VERSION, false);
     wp_enqueue_style('glightbox-style', 'https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css', array(), ARSIP_YANUM_VERSION, false);
-    wp_enqueue_style('arsipyanum-style', ARSIP_YANUM_PLUGIN_URL . 'css/style.css', array(), ARSIP_YANUM_VERSION, false);
+    wp_enqueue_style('arsipyanum-style', ARSIP_YANUM_PLUGIN_URL . 'css/custom.css', array(), ARSIP_YANUM_VERSION, false);
 
     wp_enqueue_script('jquery');
     wp_enqueue_script('dataTable-scripts', 'https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js', array('jquery'), ARSIP_YANUM_VERSION, true);
